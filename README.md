@@ -4,7 +4,7 @@
 
 > En un primer momento utilice:utilice puerto `http://localhost:3000`), mientras que el backend con **Node.js + Express** se ejecuta en `http://localhost:4000`.
  
-Pero para poder subirlo a la web mediante RENDER: 
+Pero para poder subirlo a la web mediante RENDER necesité hacer este cambio de localhost: 
 
 Ahora (versión unificada para producción o Render):
 
