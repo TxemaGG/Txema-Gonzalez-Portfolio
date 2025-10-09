@@ -2,6 +2,19 @@
 > Este documento está disponible en español y traducido al inglés al final.  
 > This document is available in Spanish, and an English translation is included at the end.
 
+
+## Repositorios del proyecto
+
+> Este proyecto **full-stack** combina el frontend (React) y el backend (Node.js + Express) en un único repositorio.
+
+- **Frontend (React App):**  
+  > Código fuente en la carpeta principal `/src`  
+   [https://github.com/TxemaGG/Txema-Gonzalez-Portfolio](https://github.com/TxemaGG/Txema-Gonzalez-Portfolio)
+
+- **Backend (API REST con Node y Express):**  
+  > Implementado en el archivo [`api-server.js`](./api-server.js)  
+   [https://github.com/TxemaGG/Txema-Gonzalez-Portfolio/blob/main/api-server.js](https://github.com/TxemaGG/Txema-Gonzalez-Portfolio/blob/main/api-server.js)
+
 ---
 
 # TXEMA GONZÁLEZ REACT PORTFOLIO APP
