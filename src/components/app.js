@@ -15,7 +15,6 @@ import NavigationContainer from "./navigation/navigation-container";
 import Home from "./pages/home";
 import About from "./pages/about";
 import Experience from "./pages/experience";
-import Writing from "./pages/writing";
 import Contact from "./pages/contact";
 import PortfolioManager from "./pages/portfolio-manager";
 import PortfolioDetail from "./portfolio/portfolio-detail";
@@ -124,7 +123,6 @@ export default class App extends Component {
               <Route path="/about-me" component={About} />
               <Route path="/experience" component={Experience} />
               <Route path="/contact" component={Contact} />
-              <Route path="/writing" component={Writing} />
               {this.state.loggedInStatus === "LOGGED_IN" ? (
                 this.authorizedPages()
               ) : null}

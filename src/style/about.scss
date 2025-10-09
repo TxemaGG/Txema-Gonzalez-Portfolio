@@ -1,0 +1,98 @@
+
+.about-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 80px 20px;
+  background: #fff;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 1000px;
+  text-align: left;
+}
+
+.about-photo {
+  width: 100%;
+  max-width: 300px;
+  height: auto; 
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin-top: 90px;
+}
+
+.about-content {
+  flex: 1;
+  min-width: 280px;
+
+  h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #111;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+
+  p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #444;
+    text-align: justify;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+}
+
+.lang-buttons {
+  margin-bottom: 10px;
+
+  .lang-btn {
+    background: transparent;
+    border: 1px solid #3ea9ac;
+    color: #3ea9ac;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 5px 10px;
+    margin-right: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background: #3ea9ac;
+      color: white;
+    }
+
+    &.active {
+      background: #111;
+      color: white;
+      border-color: #111;
+    }
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-photo {
+    width: 200px;
+    height: 200px;
+  }
+
+  .about-content {
+    h2 {
+      font-size: 1.6rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+  }
+}

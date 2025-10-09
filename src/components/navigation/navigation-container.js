@@ -57,12 +57,6 @@ const NavigationComponent = props => {
             </NavLink>
           </div>
 
-          <div className="nav-link-wrapper">
-            <NavLink to="/writing" activeClassName="nav-link-active">
-              WRITING
-            </NavLink>
-          </div>
-
           {props.loggedInStatus === "LOGGED_IN" ? (
             dynamicLink("/portfolio-manager", "PORTFOLIO MANAGER")
           ) : null}
