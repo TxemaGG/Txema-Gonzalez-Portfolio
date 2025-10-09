@@ -1,24 +1,21 @@
 > **Nota / Note:**  
-> Este documento está disponible en español y traducido al inglés al final.  
+> Este documento está disponible en español y traducido al inglés al final del documento.    
 > This document is available in Spanish, and an English translation is included at the end.
 
-> En un primer momento utilice:utilice puerto `http://localhost:3000`), mientras que el backend con **Node.js + Express** se ejecuta en `http://localhost:4000`.
- 
-Pero para poder subirlo a la web mediante RENDER necesité hacer este cambio de localhost: 
 
-Ahora (versión unificada para producción o Render):
+## Repositorios del proyecto
 
-Un solo servidor → http://localhost:8080
+> Este proyecto **full-stack** combina el frontend (React) y el backend (Node.js + Express) en un único repositorio.
 
-Ese mismo servidor:
+- **Frontend (React App):**  
+  > Código fuente en la carpeta principal `/src`  
+   [https://github.com/TxemaGG/Txema-Gonzalez-Portfolio](https://github.com/TxemaGG/Txema-Gonzalez-Portfolio)
 
-Muestra tu aplicación React (frontend)
+- **Backend (API REST con Node y Express):**  
+  > Implementado en el archivo [`api-server.js`](./api-server.js)  
+   [https://github.com/TxemaGG/Txema-Gonzalez-Portfolio/blob/main/api-server.js](https://github.com/TxemaGG/Txema-Gonzalez-Portfolio/blob/main/api-server.js)
 
-Recibe los mensajes del formulario en la ruta /messages
-
-Guarda los datos en messages.json
-
-
+---
 ---
 
 # TXEMA GONZÁLEZ REACT PORTFOLIO APP
