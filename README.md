@@ -66,18 +66,9 @@ Esta aplicación de portfolio está dirigida a:
 ---
 
 ## 5. Servidores locales necesarios  
-- 
-Ahora (versión unificada para producción o Render):
-
-Un solo servidor → http://localhost:8080
-
-Ese mismo servidor:
-
-Muestra tu aplicación React (frontend)
-
-Recibe los mensajes del formulario en la ruta /messages
-
-Guarda los datos en messages.json
+ 
+- **localhost:3000** → Frontend React. Se arranca con `npm start`.  
+- **localhost:4000** → API REST Backend. Guarda y devuelve los mensajes del formulario de contacto. Se arranca con `node api-server.js`.
 
 
 
@@ -102,22 +93,6 @@ El apartado **Contact** forma parte del frontend React (puerto `http://localhost
 Ambos servicios siguen una arquitectura **cliente-servidor**:
 - **Frontend (React):** muestra el formulario, valida los datos y envía la información.
 - **Backend (Express):** recibe los datos, los guarda en `messages.json` y responde al cliente.
-
-Pero para poder subirlo a la web he cambiado a esto: 
-
-Ahora (versión unificada para producción o Render):
-
-Un solo servidor → http://localhost:8080
-
-Ese mismo servidor:
-
-Muestra tu aplicación React (frontend)
-
-Recibe los mensajes del formulario en la ruta /messages
-
-Guarda los datos en messages.json
-
-
 
 ---
 
